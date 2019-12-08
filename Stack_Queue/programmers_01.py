@@ -17,16 +17,14 @@ def solution(progresses, speeds):
     answer = []
     
     while progresses:
-    
         needed_loof = math.ceil((100 - progresses[0]) / speeds[0])
 
         for i in range(len(progresses)):
             progresses[i] += speeds[i] * needed_loof
 
-        cnt = 1
-        for i in range(1, len(progresses)):
-            if progresses[i] >= 100 and progresses[i-1] >= 100:
-                cnt += 1
+        cnt = 0
+        while cnt < len(progresses) and progresses[cnt] >= 100:
+            cnt += 1
 
         progresses, speeds = progresses[cnt:], speeds[cnt:]
 
