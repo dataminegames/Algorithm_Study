@@ -15,16 +15,14 @@
 
 def solution(height):
     answer = []
-    length = len(height) + 1
-    
     height.insert(0, 101)
     
-    for i in range(length - 1, 0, -1):
+    for i in range(len(height) - 1, 0, -1):
         for j in range(i - 1, -1, -1):
             if height[i] < height[j]:
                 answer.insert(0, j)
                 break
-    
+                
     return answer
     
 
