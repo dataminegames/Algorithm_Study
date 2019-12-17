@@ -35,8 +35,12 @@ def solution(priorities, location):
             
             q.pop(0)
 
+            
 solution([2, 1, 3, 2], 2)
 # 1
 
 solution([1, 1, 9, 1, 1, 1], 0)
 # 5
+
+solution([1,2,3,4,5,6,7,8,9], 0)
+# 9
