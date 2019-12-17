@@ -13,5 +13,14 @@
 1. [예산](https://github.com/dataminegames/Algorithm_Study/blob/master/BinarySearch/programmers_01.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
 
 
-## 3. DFS / BFS
+## 3. Exhaustive Search
+
+
+## 4. DFS / BFS
 1. [타겟 넘버](https://github.com/dataminegames/Algorithm_Study/blob/master/DFS_BFS/programmers_01.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
+
+## 5. Dynamic Programming
+
+
+## 6. Greedy
