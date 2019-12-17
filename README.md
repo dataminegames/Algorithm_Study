@@ -1,5 +1,6 @@
 # Algorithm Study
 
+
 ## 1. Stack / Queue
 1. [기능개발](https://github.com/dataminegames/Algorithm_Study/blob/master/Stack_Queue/programmers_01.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42586)
 2. [탑](https://github.com/dataminegames/Algorithm_Study/blob/master/Stack_Queue/programmers_02.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42588)
@@ -8,5 +9,9 @@
 5. [프린터](https://github.com/dataminegames/Algorithm_Study/blob/master/Stack_Queue/programmers_05.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
 
-## 2. DFS / BFS
+## 2. Binary Search
+1. [예산](https://github.com/dataminegames/Algorithm_Study/blob/master/BinarySearch/programmers_01.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
+
+
+## 3. DFS / BFS
 1. [타겟 넘버](https://github.com/dataminegames/Algorithm_Study/blob/master/DFS_BFS/programmers_01.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
