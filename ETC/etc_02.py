@@ -13,22 +13,16 @@ W, H : 1억 이하의 자연수
 
 
 def solution(w,h):
-    def gcf(w, h):
-        if w < h:
-            w, h = h, w
-            
-        if h == 0:
-            return w
-        
-        else:
-            return gcf(h, w % h)
+    def gcf(a, b):
+        if a < b:
+            a, b = b, a
+
+        while b != 0:
+            a, b = b, a % b
+
+        return a
     
-    gc = gcf(w, h)
-    ww = w / gc
-    hh = h / gc
-    answer = w * h - (ww + hh - 1) * gc
-    
-    return answer
+    return w * h - (w + h - gcf(w, h))
     
     
 solution(8, 12)
