@@ -14,18 +14,13 @@
 
 def solution(n):
     answer = [0]
+    fold = [0, 1]
     
-    def fold(N):
-        if N == 1:
-            return answer
-
-        new = [0, 1] * 2**(N-2)
-        for i in range(0,2**(N-1)):
-            answer.insert(i*2, new[i])
-
-        return fold(N-1)
+    for f in range(2, n+1):
+        for i in range(0, 2**(f-1)):
+            answer.insert(i*2, fold[i%2])
         
-    return fold(n)
+    return answer
 
 
 solution(1)
@@ -35,4 +30,4 @@ solution(1)
 # [0, 0, 1]
 
 solution(1)
-# [0, 0, 1, 0, 1, 0, 1]
+# [0, 0, 1, 0, 0, 1, 1]
