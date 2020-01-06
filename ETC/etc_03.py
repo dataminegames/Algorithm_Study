@@ -12,13 +12,34 @@
 '''
 
 
-def solution(n):
-    answer = [0]
-    fold = [0, 1]
+# 시간 초과 (insert 때문에)
+# def solution(n):
+#     answer = [0]
+#     fold = [0, 1]
     
-    for f in range(2, n+1):
-        for i in range(0, 2**(f-1)):
-            answer.insert(i*2, fold[i%2])
+#     for f in range(2, n+1):
+#         for i in range(0, 2**(f-1)):
+#             answer.insert(i*2, fold[i%2])
+        
+#     return answer
+
+
+# 통과
+def solution(n):
+    def length(n):
+        if n == 1:
+            return 1
+        return length(n - 1) * 2 + 1
+
+    _len = length(n)
+    mid = _len
+    
+    answer = [0] * _len
+    
+    while mid:
+        mid //= 2
+        for i, f in enumerate(range(mid, _len, (mid + 1) * 2)):
+            answer[f] = [0, 1][i % 2]
         
     return answer
 
