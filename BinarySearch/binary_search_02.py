@@ -19,7 +19,6 @@ def solution(n, times):
     
     while _min < _max:
         mid = (_min + _max) // 2
-        print(_min, mid, _max)
         
         p = 0
         for t in times:
@@ -27,15 +26,12 @@ def solution(n, times):
         
         if p < n:
             _min = mid + 1
-            print('n')
 
         elif p > n:
             _max = mid - 1
-            print('p')
 
         else:
             _max = mid
-            print('=')
     
     return _min
 
