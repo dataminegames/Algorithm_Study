@@ -19,12 +19,14 @@
 
 
 ## 4. Exhaustive Search
-1. [모의고사](https://github.com/dataminegames/Algorithm_Study/blob/master/Stack_Queue/exhaustive_search_01.py) (Level 1) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42840)
-2. [소수 찾기](https://github.com/dataminegames/Algorithm_Study/blob/master/Stack_Queue/exhaustive_search_02.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
+1. [모의고사](https://github.com/dataminegames/Algorithm_Study/blob/master/ExhaustiveSearch/exhaustive_search_01.py) (Level 1) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42840)
+2. [소수 찾기](https://github.com/dataminegames/Algorithm_Study/blob/master/ExhaustiveSearch/exhaustive_search_02.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
+3. [숫자 야구](https://github.com/dataminegames/Algorithm_Study/blob/master/ExhaustiveSearch/exhaustive_search_03.py) (Level 2) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42841)
 
 
 ## 5. Binary Search
 1. [예산](https://github.com/dataminegames/Algorithm_Study/blob/master/BinarySearch/binary_search_01.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
+2. [입국심사](https://github.com/dataminegames/Algorithm_Study/blob/master/BinarySearch/binary_search_02.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43238)
 
 
 ## 6. Greedy
@@ -38,7 +40,8 @@
 1. [타일 장식물](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_01.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43104)
 2. [정수 삼각형](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_02.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/43105)
 3. [등굣길](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_03.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42898)
-4. [N으로 표현](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_03.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
+4. [N으로 표현](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_04.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
+6. [2 x n 타일링](https://github.com/dataminegames/Algorithm_Study/blob/master/DynamicProgramming/dp_06.py) (Level 3) - [프로그래머스 문제](https://programmers.co.kr/learn/courses/30/lessons/12900)
 
 
 ## 9. ETC.
