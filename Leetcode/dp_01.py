@@ -47,7 +47,6 @@ such that exactly one of the tilings has both squares occupied by a tile.)
     # ■ : x
     #     x (상하반전이 같아서 *2 안함)
 
-
 # *2 : 상하반전 경우의 수
 
 
