@@ -26,7 +26,7 @@ such that exactly one of the tilings has both squares occupied by a tile.)
     # □□□□□■ --> □□□□□ P(N-1)  *  ■ 1
 
 
-# □ : 이전에 구했던 경우의 수(□가 하나 더해져도 경우의 수는 동일)
+# □ : nx2를 채울 수 있는 타일 조합 경우의 수. DP를 활용해 P(n)을 구하기 위해 P(1~(n-1))까지를 활용
 
 # ■ : 쪼개지지 않는 새로운 타일 조합 (경우의 수 : 1*2)
     # ■■■■■■ : xxvvxx
@@ -52,11 +52,11 @@ such that exactly one of the tilings has both squares occupied by a tile.)
 
 class Solution():
     def numTilings(self, N: int) -> int:
-        # 0 리스트, 초기값 설정
+        # 리스트 0으로 초기화, 초기값 설정
         tiles = [1, 2] + [0] * (N-2)
         
         for i in range(2, N):
-            # 점화식
+            # 점화식, overflow 방지
             tiles[i] = (2 * sum(tiles[:i-2]) + tiles[i-2] + tiles[i-1] + 2) % 1000000007
         
         return tiles[-1]
