@@ -37,4 +37,3 @@ solution([['ICN', 'JFK'], ['HND', 'IAD'], ['JFK', 'HND']])
 
 solution([['ICN', 'SFO'], ['ICN', 'ATL'], ['SFO', 'ATL'], ['ATL', 'ICN'], ['ATL', 'SFO']])
 # ['ICN', 'ATL', 'ICN', 'SFO', 'ATL', 'SFO']
-
